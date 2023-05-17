@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f0f0ee">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="42dp"
+            android:text="任务标题"
+            android:textSize="14sp"
+            android:textColor="#6b73a4"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/taskTitle"
+            android:layout_width="235dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/content_border"
+            android:inputType="text"
+            android:padding="5dp"
+            android:text=""
+            android:maxLines="1"
+            android:lines="1"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_marginEnd="35dp"-->
+<!--        android:background="@color/colorTextHint" />-->
+
+    <TextView
+        android:id="@+id/warn_title"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/warn"
+        android:textSize="12sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:text="任务金额"
+            android:textSize="14sp"
+            android:textColor="#6b73a4"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/taskMoney"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/content_border"
+            android:inputType="number"
+            android:maxLines="1"
+            android:lines="1"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/predict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:background="@color/colorTextHint" />-->
+
+    <TextView
+        android:id="@+id/warn_money"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="105dp"
+        android:textColor="@color/warn"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:text="任务内容"
+            android:textSize="14sp"
+            android:textColor="#6b73a4"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/taskContent"
+            android:layout_width="275dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="35dp"
+            android:padding="5dp"
+            android:gravity="top"
+            android:background="@drawable/content_border"
+            android:textColor="@color/black"
+            android:text=""
+            android:scrollbars="vertical"
+            android:maxLines="4"
+            android:textSize="12sp"/>
+
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_marginEnd="35dp"-->
+<!--        android:background="@color/colorTextHint" />-->
+
+    <TextView
+        android:id="@+id/warn_content"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginStart="105dp"
+        android:textColor="@color/warn"
+        android:textSize="12sp" />
+
+
+
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_marginEnd="35dp"-->
+<!--        android:background="@color/colorTextHint" />-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="15dp"
+            android:text="截至时间"
+            android:textSize="14sp"
+            android:textColor="#6b73a4"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/taskDeadline"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="17dp"
+            android:textColor="@color/black"
+            android:background="@drawable/content_border"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/warn_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginStart="105dp"
+        android:textColor="@color/warn"
+        android:textSize="12sp" />
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_marginEnd="35dp"-->
+<!--        android:background="@color/colorTextHint" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addTask"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/main_button"
+            android:text="添加任务"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+</LinearLayout>

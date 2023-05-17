@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f8fc">
+
+
+    <ImageView
+        android:id="@+id/imageRegister"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/header"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-37dp">
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="420dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:translationY="80dp"
+            android:background="@drawable/register_input">
+
+            <EditText
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="@string/account"
+                android:maxLines="1"
+                android:lines="1"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warn_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:textColor="@color/warn" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warn_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:textColor="@color/warn" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/username"
+                android:maxLines="1"
+                android:lines="1"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warn_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:text=""
+                android:textColor="@color/warn" />
+
+            <EditText
+                android:id="@+id/telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/telephone"
+                android:maxLines="1"
+                android:lines="1"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warn_telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:text=""
+                android:textColor="@color/warn" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/email"
+                android:maxLines="1"
+                android:lines="1"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/warn_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:text=""
+                android:textColor="@color/warn" />
+
+            <Button
+                android:id="@+id/toRegister"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/primary_buttom_background"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="@string/logininterface"
+                android:textColor="@color/black"
+                android:textSize="11sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

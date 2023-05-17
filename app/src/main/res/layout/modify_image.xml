@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/change_image_bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/takeAPicture"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:text="拍照"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:id="@+id/photoAlbum"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:text="相册"/>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_task"
+            android:id="@+id/navTask"
+            android:title="主界面"/>
+
+        <item
+            android:icon="@drawable/ic_record"
+            android:id="@+id/navRecord"
+            android:title="我的记录"/>
+
+        <item
+            android:icon="@drawable/ic_countdown"
+            android:id="@+id/navCountdown"
+            android:title="倒计时"/>
+
+        <item android:title=" "/>
+        <item android:title=" "/>
+        <item android:title=" "/>
+        <item
+            android:icon="@drawable/ic_earth"
+            android:id="@+id/navChangePassword"
+            android:title="修改密码"/>
+        <item
+            android:icon="@drawable/ic_robot"
+            android:id="@+id/navRobot"
+            android:title="客服聊天"/>
+        <item android:icon="@drawable/ic_setting"
+            android:id="@+id/theme"
+            android:title="修改主题"/>
+        <item
+            android:icon="@drawable/ic_power_off"
+            android:id="@+id/powerOff"
+            android:title="退出登录"/>
+    </group>
+</menu>

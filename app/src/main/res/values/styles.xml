@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryDark">@color/teal_700</item>
+        <item name="colorAccent">@color/teal_700</item>
+<!--        <item name="android:background">@color/black</item>-->
+    </style>
+
+    <style name="myCorDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_style</item> <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="changePasswordDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/change_password_dialog_style</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="numberPickerDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/number_picker_dialog_style</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:textAlignment">center</item>
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="addTask" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/add_task_style</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="taskDetails" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/task_details</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="searchDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/search_dialog</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <style name="searchDialogDark" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/search_dialog_dark</item> <!-- 紫色背景 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+</resources>
